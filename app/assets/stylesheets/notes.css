@@ -37,7 +37,7 @@ input[type = submit]{
         min-width:120px;
         
 }
-.login{margin-left:15px;}
+.login{margin-left:70px !important;}
 .logout{color:white; background-color:yellow; width:60px; border-radius:0px 0px 3px 3px; margin-left:10px;}
 input[type = submit]:hover{opacity:0.9; filter:alpha(opacity=90);}
 .button-lef input[type = submit]{margin:0; margin-left:10px; }

@@ -10681,3 +10681,195 @@ Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 21:39:41 +0530
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 21:39:41 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 22:13:00 +0530
+Processing by NotesController#new as HTML
+  Rendered notes/_form.html.erb (20.4ms)
+  Rendered notes/new.html.erb within layouts/application (23.1ms)
+Completed 200 OK in 56ms (Views: 46.3ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:13:01 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:13:01 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:13:01 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:13:01 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:13:01 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:13:01 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:13:01 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:13:01 +0530
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-11-13 22:13:01 +0530
+
+
+Started GET "/assets/int.ttf" for 127.0.0.1 at 2013-11-13 22:13:01 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 22:13:09 +0530
+Processing by NotesController#new as HTML
+  Rendered notes/_form.html.erb (2.0ms)
+  Rendered notes/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 20ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:13:09 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:13:09 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:13:09 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:13:09 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:13:09 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:13:09 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:13:09 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:13:09 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 22:13:10 +0530
+Processing by NotesController#new as HTML
+  Rendered notes/_form.html.erb (2.4ms)
+  Rendered notes/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:13:10 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:13:10 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:13:10 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:13:10 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:13:10 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:13:10 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:13:10 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:13:10 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 22:13:25 +0530
+Processing by NotesController#new as HTML
+  Rendered notes/_form.html.erb (1.8ms)
+  Rendered notes/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 22ms (Views: 21.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:13:25 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:13:25 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:13:25 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:13:25 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:13:25 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:13:25 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:13:25 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:13:25 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 22:13:33 +0530
+Processing by NotesController#new as HTML
+  Rendered notes/_form.html.erb (1.7ms)
+  Rendered notes/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 26ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:13:33 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:13:33 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:13:33 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:13:33 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:13:33 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:13:33 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:13:33 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:13:33 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 22:13:45 +0530
+Processing by NotesController#new as HTML
+  Rendered notes/_form.html.erb (2.3ms)
+  Rendered notes/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 27ms (Views: 25.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:13:45 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:13:45 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:13:45 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:13:45 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:13:45 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:13:45 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:13:45 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:13:45 +0530
