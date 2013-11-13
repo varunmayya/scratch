@@ -1,8 +1,4 @@
-@font-face
-{
-font-family: 'int';
-src: url('int.ttf'); 
-} 
+
 #error_explanation ul li{font-size:14px;color:rgb(228, 111, 111);}
 .field_with_errors{}
 .center-text{
@@ -41,6 +37,7 @@ input[type = submit]{
         min-width:120px;
         
 }
+.login{margin-left:15px;}
 .logout{color:white; background-color:yellow; width:60px; border-radius:0px 0px 3px 3px; margin-left:10px;}
 input[type = submit]:hover{opacity:0.9; filter:alpha(opacity=90);}
 .button-lef input[type = submit]{margin:0; margin-left:10px; }

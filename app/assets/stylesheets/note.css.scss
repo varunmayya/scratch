@@ -3,3 +3,9 @@
 .box_mid{width:940px; padding:45px; background-image:image-url('box_part2.png');background-repeat:repeat-y;}
 .box_bot{width:1030px;  height:39px; background-image:image-url('box_part3.png');background-repeat: no-repeat; margin-left:-1px;}
 .box_bot_holder{margin:0 auto; width:1030px; height:39px; position:relative;}*/
+
+@font-face
+{
+font-family: 'int';
+src: url(font_path('int.ttf'));
+}
