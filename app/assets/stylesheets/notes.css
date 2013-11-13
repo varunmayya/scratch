@@ -13,7 +13,7 @@ a{color:#717171; font-size:12px; font-family:'sans-serif'}
 .p,label{color:#717171;}
 input[type = submit]{
 	-moz-box-shadow:inset 0px 1px 0px 0px #7a8eb9;
-        -webkit-box-shadow:inset 0px 1px 0px 0px #7a8eb9;
+        -webkit-box-shadow:inset 0px 1px 0px 0px #7a`8eb9;
         box-shadow:inset 0px 1px 0px 0px #7a8eb9;
         cursor:pointer;
         background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #637aad), color-stop(1, #5972a7));
@@ -41,7 +41,7 @@ input[type = submit]{
 .logout{color:white; background-color:yellow; width:60px; border-radius:0px 0px 3px 3px; margin-left:10px;}
 input[type = submit]:hover{opacity:0.9; filter:alpha(opacity=90);}
 .button-lef input[type = submit]{margin:0; margin-left:10px; }
-.flash{ border:1px solid rgb(255, 255, 152); width:300px; height:30px; background-color:rgb(233, 225, 130); margin:10px auto; color:rgb(129, 116, 76); text-align:center; line-height:30px;}
+.flash{ border:1px solid rgb(255, 255, 152); width:400px; height:30px; background-color:rgb(233, 225, 130); margin:10px auto; color:rgb(129, 116, 76); text-align:center; line-height:30px;}
 input[type = email], input[type = password]{width:289px;border:1px solid #bdbdbd;margin:3px 0px;padding-left:5px;margin-bottom:5px;}
 .devise_box{background-color:#dedae5; padding:10px; box-shadow:0px 2px 1px rgba(0,0,0,0.2); border-top:1px solid white; width:300px; margin:0 auto; }
 .title-h{font-family:'int', sans-serif;color:white; text-shadow:1px 1px rgba(0,0,0,0.5); font-size:60px; font-weight:normal; line-height:65px; margin-bottom:20px; text-align:center;}

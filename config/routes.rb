@@ -7,9 +7,9 @@ resources :scratches, :controller => "notes", :as => "notes", :except => [:show]
 
   # You can have the root of your site routed with "root"
  
-devise_scope :user do
-  root to: "devise/sessions#new"
-end
+
+  root to: "notes#new"
+
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
