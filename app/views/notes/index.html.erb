@@ -1,0 +1,20 @@
+<div class="logo"></div>
+<%= link_to 'New Scratch', new_note_path, :class => "button-3" %>
+
+
+
+
+
+
+    <% @notes.each do |note| %>
+      <div class="note-card">
+        <%= simple_format(note.data) %> <br/>
+<div class="center-text sblue nt-text">
+        <%= link_to 'Edit', edit_note_path(note) %> /
+        <%= link_to 'Remove', note, method: :delete, data: { confirm: 'Are you sure you want to remove this scratch?' } %>
+</div>
+ </div>
+    <% end %>
+
+
+<div class="clear"></div>
