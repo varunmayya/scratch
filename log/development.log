@@ -9825,3 +9825,41 @@ Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 13:46:14 +0530
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 13:46:14 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 21:13:54 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (1.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (2.1ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (32.4ms)
+Completed 200 OK in 218ms (Views: 116.2ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 21:13:54 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 21:13:54 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 21:13:54 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 21:13:54 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 21:13:54 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 21:13:54 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 21:13:54 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 21:13:54 +0530
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-11-13 21:13:55 +0530
+
+
+Started GET "/assets/int.ttf" for 127.0.0.1 at 2013-11-13 21:13:55 +0530
