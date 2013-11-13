@@ -13,7 +13,7 @@ a{color:#717171; font-size:12px; font-family:'sans-serif'}
 .p,label{color:#717171;}
 input[type = submit]{
 	-moz-box-shadow:inset 0px 1px 0px 0px #7a8eb9;
-        -webkit-box-shadow:inset 0px 1px 0px 0px #7a`8eb9;
+        -webkit-box-shadow:inset 0px 1px 0px 0px #7a8eb9;
         box-shadow:inset 0px 1px 0px 0px #7a8eb9;
         cursor:pointer;
         background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #637aad), color-stop(1, #5972a7));
