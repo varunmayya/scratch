@@ -1,4 +1,5 @@
 class NotesController < ApplicationController
+  before_action :hijack, only: [:create]
   before_action :set_note, only: [:show, :edit, :update, :destroy]
   before_action :authenticate_user!, except: [:new]
   before_action :check_if_my_notes, only: [ :show, :edit, :update, :destroy]
@@ -13,6 +14,17 @@ class NotesController < ApplicationController
   def show
   end
 
+def hijack
+unless user_signed_in?
+session[:pre_login] = params[:note][:data]
+end
+end
+
+def aprocess
+  current_user.notes.create(data: session[:pre_login])
+  session[:pre_login] = nil
+  redirect_to notes_url
+end
 
   # GET /notes/new
   def new

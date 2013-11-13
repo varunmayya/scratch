@@ -8,21 +8,18 @@
 	"buffers":
 	[
 		{
-			"contents": "\n#error_explanation ul li{font-size:14px;color:rgb(228, 111, 111);}\n.field_with_errors{}\n.center-text{\ntext-align: center;}\n\nh2{font-size:14px;color:#717171;text-shadow:0px 1px 0px white;text-align:center; }\nbody{margin:0; padding:0; background-color:#7a6d98;}\n.container{width:1030px; min-height:400px; margin:0 auto;}\n.footer{font-family:'int', sans-serif;width:900px;margin:0 auto;font-size:30px; text-align:center;\ncolor:white; text-shadow:1px 1px rgba(0,0,0,0.3); margin-top:75px; margin-bottom:35px;}\na{color:#717171; font-size:12px; font-family:'sans-serif'}\n.p,label{color:#717171;}\ninput[type = submit]{\n	-moz-box-shadow:inset 0px 1px 0px 0px #7a8eb9;\n        -webkit-box-shadow:inset 0px 1px 0px 0px #7a`8eb9;\n        box-shadow:inset 0px 1px 0px 0px #7a8eb9;\n        cursor:pointer;\n        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #637aad), color-stop(1, #5972a7));\n        background:-moz-linear-gradient(top, #637aad 5%, #5972a7 100%);\n        background:-webkit-linear-gradient(top, #637aad 5%, #5972a7 100%);\n        background:-o-linear-gradient(top, #637aad 5%, #5972a7 100%);\n        background:-ms-linear-gradient(top, #637aad 5%, #5972a7 100%);\n        background:linear-gradient(to bottom, #637aad 5%, #5972a7 100%);\n        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#637aad', endColorstr='#5972a7',GradientType=0);\n        margin:15px auto 7px auto;\n        background-color:#637aad;\n        border:1px solid #314179;\n        \n        display:block;\n        color:#ffffff;\n        font-family:arial;\n        font-size:13px;\n        font-weight:bold;\n        padding:6px 12px;\n        text-decoration:none;\n        min-width:120px;\n        \n}\n.login{margin-left:15px;}\n.logout{color:white; background-color:yellow; width:60px; border-radius:0px 0px 3px 3px; margin-left:10px;}\ninput[type = submit]:hover{opacity:0.9; filter:alpha(opacity=90);}\n.button-lef input[type = submit]{margin:0; margin-left:10px; }\n.flash{ border:1px solid rgb(255, 255, 152); width:300px; height:30px; background-color:rgb(233, 225, 130); margin:10px auto; color:rgb(129, 116, 76); text-align:center; line-height:30px;}\ninput[type = email], input[type = password]{width:289px;border:1px solid #bdbdbd;margin:3px 0px;padding-left:5px;margin-bottom:5px;}\n.devise_box{background-color:#dedae5; padding:10px; box-shadow:0px 2px 1px rgba(0,0,0,0.2); border-top:1px solid white; width:300px; margin:0 auto; }\n.title-h{font-family:'int', sans-serif;color:white; text-shadow:1px 1px rgba(0,0,0,0.5); font-size:60px; font-weight:normal; line-height:65px; margin-bottom:20px; text-align:center;}\n\n.button-3{ \n      \n    -moz-box-shadow:inset 0px 1px 0px 0px #a4ff70;\n        -webkit-box-shadow:inset 0px 1px 0px 0px #a4ff70;\n        box-shadow:inset 0px 1px 0px 0px #a4ff70;\n        \n        background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #3db34b), color-stop(1, #31a63f));\n        background:-moz-linear-gradient(top, #3db34b 5%, #31a63f 100%);\n        background:-webkit-linear-gradient(top, #3db34b 5%, #31a63f 100%);\n        background:-o-linear-gradient(top, #3db34b 5%, #31a63f 100%);\n        background:-ms-linear-gradient(top, #3db34b 5%, #31a63f 100%);\n        background:linear-gradient(to bottom, #3db34b 5%, #31a63f 100%);\n        filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#3db34b', endColorstr='#31a63f',GradientType=0);\n        \n        background-color:#3db34b;\n        \n        border:1px solid #3a6621;\n        \n        display:block;\n        color:#fcfffc;\n        font-family:Arial;\n        font-size:12px;\n        font-weight:bold;\n        padding:6px 12px;\n        text-decoration:none;\n        margin-bottom:15px;\n        margin-right:auto;\n        width:75px;\n        z-index:2;\n        position:relative;\n        margin:0 auto;\n        \n    }\n		textarea {\n		    resize: none;\n		}\n		textarea:focus{\n					outline: none;\n					border:solid #CCC 1px;\n					      \n		}\n		.backicon a{color:white!important; text-decoration:none; font-size:15px; text-shadow:0px 1px 2px rgba(0,0,0,0.5); font-family:sans-serif;}\n		.nt-text{position:absolute; bottom:12px;}\n		.clear{clear:both; width:100px; height:100px;}\n		.note-card{ position:relative;font-size:14px;font-family: sans-serif; color:#7e7e7e; margin:25px 0px 10px 20px;background-color:white; box-shadow:0px 2px 2px rgba(0,0,0,0.3); float:left; width:290px; padding:15px; min-height:200px; overflow:auto;}\n.lhs{float:left; margin-left:18px; margin-top:11px; color:#C0C0C0; font-family:sans-serif; font-size:14px;}\n.sblue{color:#33CCFF !important;}\n.sblue a{color:#33CCFF !important;  text-decoration:none; font-family:sans-serif; font-size:14px;}\n.sblue a:hover{opacity:0.6;}\n.submit-right{float:right; font-size:15px !important; text-shadow:0px 0px 1px green !important;min-width:80px !important; margin-right:15px !important; box-shadow:none !important;margin-top:2px !important; border-left:none !important; border-right:none!important; border-radius:3px; border-top:1px solid rgb(113, 182, 109)!important; border-bottom:3px solid rgb(99,172, 95)!important;background:none !important; background-color: rgb(123,197,118) !important;}\n\n.white-box{background-color:#F0F0F0; height:310px; border-top:1px solid white; width:900px; border-bottom:1px solid #686868; margin:20px auto; border-radius:3px;}\n.ip{ font-family:sans-serif; width:860px; background-color:white; color:#7E7E7E; font-size:16px; padding:5px;height:240px; margin:11px 0px 0px 13px; border:1px solid #d8d8d8; border-radius:2px;}\n",
-			"file": "/Users/Varun/Documents/scratch/app/assets/stylesheets/notes.css",
-			"file_size": 5556,
-			"file_write_time": 130288322070000000,
-			"settings":
-			{
-				"buffer_size": 5557,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "/Users/Varun/Documents/scratch/app/assets/stylesheets/note.css.scss",
 			"settings":
 			{
 				"buffer_size": 610,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Varun/Documents/scratch/app/assets/stylesheets/notes.css",
+			"settings":
+			{
+				"buffer_size": 5567,
 				"line_ending": "Unix"
 			}
 		},
@@ -36,16 +33,48 @@
 				"buffer_size": 54,
 				"line_ending": "Unix"
 			}
+		},
+		{
+			"file": "/Users/Varun/Documents/scratch/config/routes.rb",
+			"settings":
+			{
+				"buffer_size": 1824,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Varun/Documents/scratch/app/views/devise/shared/_links.erb",
+			"settings":
+			{
+				"buffer_size": 1133,
+				"line_ending": "Unix"
+			}
 		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 0.0,
+		"height": 287.0,
 		"selected_items":
 		[
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			]
 		],
-		"width": 0.0
+		"width": 449.0
 	},
 	"console":
 	{
@@ -66,13 +95,14 @@
 	},
 	"file_history":
 	[
+		"/Users/Varun/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
 		"/Users/Varun/Documents/scratch/.bundle/untitled.sublime-project",
 		"/Users/Varun/Documents/scratch/.bundle/config",
 		"/Users/Varun/Documents/scratch/lib/assets/.keep"
 	],
 	"find":
 	{
-		"height": 0.0
+		"height": 35.0
 	},
 	"find_in_files":
 	{
@@ -86,6 +116,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"7a"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -103,46 +134,16 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"sheets":
+			[
+			]
+		},
+		{
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "/Users/Varun/Documents/scratch/app/assets/stylesheets/notes.css",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5557,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								714,
-								714
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				}
-			]
-		},
-		{
-			"selected": 0,
-			"sheets":
-			[
-				{
-					"buffer": 1,
 					"file": "/Users/Varun/Documents/scratch/app/assets/stylesheets/note.css.scss",
 					"semi_transient": false,
 					"settings":
@@ -154,8 +155,8 @@
 						"selection":
 						[
 							[
-								610,
-								610
+								543,
+								543
 							]
 						],
 						"settings":
@@ -167,11 +168,144 @@
 						"zoom_level": 1.0
 					},
 					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "/Users/Varun/Documents/scratch/app/assets/stylesheets/notes.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5567,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2652,
+								2652
+							]
+						],
+						"settings":
+						{
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 529.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
 				}
 			]
 		},
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -187,13 +321,173 @@
 						"selection":
 						[
 							[
-								54,
+								53,
 								54
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+							"codeintel": true,
+							"codeintel_config":
+							{
+								"JavaScript":
+								{
+									"codeintel_max_recursive_dir_depth": 2,
+									"codeintel_scan_files_in_project": false,
+									"javascriptExtraPaths":
+									[
+									]
+								},
+								"PHP":
+								{
+									"codeintel_max_recursive_dir_depth": 5,
+									"codeintel_scan_files_in_project": false,
+									"phpExtraPaths":
+									[
+									]
+								},
+								"Python":
+								{
+									"env":
+									{
+									}
+								}
+							},
+							"codeintel_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_live": true,
+							"codeintel_live_enabled_languages":
+							[
+								"JavaScript",
+								"Mason",
+								"XBL",
+								"XUL",
+								"RHTML",
+								"SCSS",
+								"Python",
+								"HTML",
+								"Ruby",
+								"Python3",
+								"XML",
+								"Sass",
+								"XSLT",
+								"Django",
+								"HTML5",
+								"Perl",
+								"CSS",
+								"Twig",
+								"Less",
+								"Smarty",
+								"Node.js",
+								"Tcl",
+								"TemplateToolkit",
+								"PHP"
+							],
+							"codeintel_max_recursive_dir_depth": 10,
+							"codeintel_scan_exclude_dir":
+							{
+								"JavaScript":
+								[
+									"/build/",
+									"/min/"
+								]
+							},
+							"codeintel_scan_files_in_project": true,
+							"codeintel_selected_catalogs":
+							[
+								"PyWin32",
+								"jQuery",
+								"Rails"
+							],
+							"codeintel_snippets": true,
+							"codeintel_syntax_map":
+							{
+								"Python Django": "Python"
+							},
+							"codeintel_tooltips": "popup",
+							"sublime_auto_complete": true,
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/Varun/Documents/scratch/config/routes.rb",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1824,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								702,
+								702
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/Ruby on Rails.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 34.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/Varun/Documents/scratch/app/views/devise/shared/_links.erb",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 1133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Rails/HTML (Rails).tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -263,7 +557,7 @@
 	"project": "scratch.sublime-project",
 	"replace":
 	{
-		"height": 0.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":

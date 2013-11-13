@@ -10873,3 +10873,2675 @@ Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:13:45 +0530
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:13:45 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 22:33:13 +0530
+Processing by NotesController#new as HTML
+  Rendered notes/_form.html.erb (15.8ms)
+  Rendered notes/new.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 33ms (Views: 25.6ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:33:14 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:33:14 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:33:14 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:33:14 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:33:14 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:33:14 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:33:14 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:33:14 +0530
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-11-13 22:33:14 +0530
+
+
+Started GET "/assets/int.ttf" for 127.0.0.1 at 2013-11-13 22:33:14 +0530
+
+
+Started POST "/scratches" for 127.0.0.1 at 2013-11-13 22:33:19 +0530
+Processing by NotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zuSct67Eg/8t9g/p3wTVxerrRax/+IDUYJiAQLuJDkI=", "note"=>{"data"=>"some shit\r\n"}, "commit"=>"Save"}
+Completed 401 Unauthorized in 5ms
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 22:33:19 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 83ms (Views: 13.0ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:33:19 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:33:19 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:33:19 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:33:19 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:33:19 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:33:19 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:33:19 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:33:19 +0530
+
+
+Started POST "/login" for 127.0.0.1 at 2013-11-13 22:33:23 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zuSct67Eg/8t9g/p3wTVxerrRax/+IDUYJiAQLuJDkI=", "user"=>{"email"=>"mercurialmercenary@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (2.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'mercurialmercenary@gmail.com' ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (4.6ms)[0m  UPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = 1  [["last_sign_in_at", Wed, 13 Nov 2013 14:05:08 UTC +00:00], ["current_sign_in_at", Wed, 13 Nov 2013 17:03:23 UTC +00:00], ["sign_in_count", 3], ["updated_at", Wed, 13 Nov 2013 17:03:23 UTC +00:00]]
+  [1m[36m (0.5ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/login
+Completed 302 Found in 106ms (ActiveRecord: 8.0ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 22:33:23 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Redirected to http://localhost:3000/login
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 22:33:23 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 22:33:23 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Redirected to http://localhost:3000/login
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 22:33:23 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 22:33:23 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Redirected to http://localhost:3000/login
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 22:33:23 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 22:33:24 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Redirected to http://localhost:3000/login
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 22:33:24 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 22:33:24 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Redirected to http://localhost:3000/login
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 22:33:24 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 22:33:24 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Redirected to http://localhost:3000/login
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 22:33:24 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 22:33:24 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Redirected to http://localhost:3000/login
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 22:33:24 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 22:33:24 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Redirected to http://localhost:3000/login
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 22:33:24 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 22:33:24 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Redirected to http://localhost:3000/login
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 22:33:24 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 22:33:24 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Redirected to http://localhost:3000/login
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 3ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 22:33:24 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Redirected to http://localhost:3000/login
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 2ms (ActiveRecord: 0.6ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 22:33:25 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Redirected to 
+Completed 500 Internal Server Error in 2ms
+
+ActionController::ActionControllerError (Cannot redirect to nil!):
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/redirecting.rb:66:in `redirect_to'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/flash.rb:40:in `redirect_to'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:61:in `block in redirect_to'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:60:in `redirect_to'
+  vendor/bundle/gems/devise-3.2.0/app/controllers/devise_controller.rb:110:in `require_no_authentication'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:397:in `_run__843494657619710805__process_action__callbacks'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  vendor/bundle/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  vendor/bundle/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+  vendor/bundle/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal.rb:195:in `dispatch'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal.rb:231:in `block in action'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:48:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/routing/mapper.rb:44:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:71:in `block in call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `each'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:655:in `call'
+  vendor/bundle/gems/warden-1.2.3/lib/warden/manager.rb:35:in `block in call'
+  vendor/bundle/gems/warden-1.2.3/lib/warden/manager.rb:34:in `catch'
+  vendor/bundle/gems/warden-1.2.3/lib/warden/manager.rb:34:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/flash.rb:241:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/query_cache.rb:36:in `call'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:369:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__3530847270886540570__call__callbacks'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Varun/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Varun/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Varun/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.2ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 22:33:28 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+Redirected to 
+Completed 500 Internal Server Error in 3ms
+
+ActionController::ActionControllerError (Cannot redirect to nil!):
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/redirecting.rb:66:in `redirect_to'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/flash.rb:40:in `redirect_to'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:61:in `block in redirect_to'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:60:in `redirect_to'
+  vendor/bundle/gems/devise-3.2.0/app/controllers/devise_controller.rb:110:in `require_no_authentication'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:397:in `_run__843494657619710805__process_action__callbacks'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  vendor/bundle/gems/actionpack-4.0.0/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `block in instrument'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/notifications.rb:159:in `instrument'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  vendor/bundle/gems/actionpack-4.0.0/lib/abstract_controller/base.rb:136:in `process'
+  vendor/bundle/gems/actionpack-4.0.0/lib/abstract_controller/rendering.rb:44:in `process'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal.rb:195:in `dispatch'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_controller/metal.rb:231:in `block in action'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:48:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/routing/mapper.rb:44:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:71:in `block in call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `each'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/journey/router.rb:59:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/routing/route_set.rb:655:in `call'
+  vendor/bundle/gems/warden-1.2.3/lib/warden/manager.rb:35:in `block in call'
+  vendor/bundle/gems/warden-1.2.3/lib/warden/manager.rb:34:in `catch'
+  vendor/bundle/gems/warden-1.2.3/lib/warden/manager.rb:34:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/etag.rb:23:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/conditionalget.rb:25:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/head.rb:11:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/flash.rb:241:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:225:in `context'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/session/abstract/id.rb:220:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/query_cache.rb:36:in `call'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/connection_adapters/abstract/connection_pool.rb:626:in `call'
+  vendor/bundle/gems/activerecord-4.0.0/lib/active_record/migration.rb:369:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:373:in `_run__3530847270886540570__call__callbacks'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `block in call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:25:in `tagged'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/tagged_logging.rb:67:in `tagged'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/rack/logger.rb:21:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/gems/activesupport-4.0.0/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/gems/railties-4.0.0/lib/rails/application.rb:97:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /Users/Varun/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/Varun/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/Varun/.rbenv/versions/2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.6ms)
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 22:34:17 +0530
+Processing by Devise::SessionsController#new as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Redirected to http://localhost:3000/scratches/new
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 42ms (ActiveRecord: 3.9ms)
+
+
+Started GET "/scratches/new" for 127.0.0.1 at 2013-11-13 22:34:17 +0530
+Processing by NotesController#new as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered notes/_form.html.erb (15.2ms)
+  Rendered notes/new.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 28ms (Views: 20.7ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:34:17 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:34:17 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:17 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:17 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:17 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:34:17 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:17 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:17 +0530
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2013-11-13 22:34:20 +0530
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"1NJONDPQ9zmXuLq5xr3nlJ7ama4zZZLgD6+yWayBmRs="}
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 9ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 22:34:20 +0530
+Processing by NotesController#new as HTML
+  Rendered notes/_form.html.erb (1.8ms)
+  Rendered notes/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:34:20 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:20 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:20 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:34:20 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:20 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:34:20 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:20 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:20 +0530
+
+
+Started POST "/scratches" for 127.0.0.1 at 2013-11-13 22:34:23 +0530
+Processing by NotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bFstYdHFykIU2QIhR55gKZq5nakNQILlfrSetIfLTBU=", "note"=>{"data"=>"asdasdasd"}, "commit"=>"Save"}
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 22:34:23 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:34:23 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:34:23 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:23 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:23 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:23 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:34:23 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:23 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:23 +0530
+
+
+Started POST "/login" for 127.0.0.1 at 2013-11-13 22:34:28 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bFstYdHFykIU2QIhR55gKZq5nakNQILlfrSetIfLTBU=", "user"=>{"email"=>"mercurialmercenary@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'mercurialmercenary@gmail.com' ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = 1[0m  [["last_sign_in_at", Wed, 13 Nov 2013 17:03:23 UTC +00:00], ["current_sign_in_at", Wed, 13 Nov 2013 17:04:28 UTC +00:00], ["sign_in_count", 4], ["updated_at", Wed, 13 Nov 2013 17:04:28 UTC +00:00]]
+  [1m[35m (0.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/scratches/new
+Completed 302 Found in 94ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/scratches/new" for 127.0.0.1 at 2013-11-13 22:34:28 +0530
+Processing by NotesController#new as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered notes/_form.html.erb (3.0ms)
+  Rendered notes/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:34:28 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:34:28 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:34:28 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:28 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:28 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:28 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:28 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:28 +0530
+
+
+Started POST "/scratches" for 127.0.0.1 at 2013-11-13 22:34:31 +0530
+Processing by NotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HB+uFiAmoBSYZ5k8rrI6vIaUuXT2Z/Q7X8M/tNGnye4=", "note"=>{"data"=>"asdasdasd"}, "commit"=>"Save"}
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.6ms)[0m  INSERT INTO "notes" ("created_at", "data", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 13 Nov 2013 17:04:31 UTC +00:00], ["data", "asdasdasd"], ["updated_at", Wed, 13 Nov 2013 17:04:31 UTC +00:00], ["user_id", 1]]
+  [1m[36m (1.9ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/scratches
+Completed 302 Found in 15ms (ActiveRecord: 4.3ms)
+
+
+Started GET "/scratches" for 127.0.0.1 at 2013-11-13 22:34:31 +0530
+Processing by NotesController#index as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mNote Load (1.7ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."user_id" = $1 ORDER BY created_at DESC[0m  [["user_id", 1]]
+  Rendered notes/index.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 57ms (Views: 12.3ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:34:31 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:34:31 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:34:31 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:31 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:31 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:31 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:31 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:31 +0530
+
+
+Started DELETE "/scratches/19" for 127.0.0.1 at 2013-11-13 22:34:34 +0530
+Processing by NotesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"HB+uFiAmoBSYZ5k8rrI6vIaUuXT2Z/Q7X8M/tNGnye4=", "id"=>"19"}
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mNote Load (0.8ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."user_id" = $1 AND "notes"."id" = $2 LIMIT 1[0m  [["user_id", 1], ["id", "19"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.3ms)[0m  [1mDELETE FROM "notes" WHERE "notes"."id" = $1[0m  [["id", 19]]
+  [1m[35m (99.0ms)[0m  COMMIT
+Redirected to http://localhost:3000/scratches
+Completed 302 Found in 107ms (ActiveRecord: 101.9ms)
+
+
+Started GET "/scratches" for 127.0.0.1 at 2013-11-13 22:34:34 +0530
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mNote Load (0.6ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = $1 ORDER BY created_at DESC  [["user_id", 1]]
+  Rendered notes/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 11ms (Views: 7.3ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:34:34 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:34:34 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:34:34 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:34 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:34 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:34 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:34 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:34 +0530
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2013-11-13 22:34:35 +0530
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"HB+uFiAmoBSYZ5k8rrI6vIaUuXT2Z/Q7X8M/tNGnye4="}
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 22:34:35 +0530
+Processing by NotesController#new as HTML
+  Rendered notes/_form.html.erb (1.9ms)
+  Rendered notes/new.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:34:35 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:35 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:34:35 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:35 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:35 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:34:35 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:35 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:35 +0530
+
+
+Started POST "/scratches" for 127.0.0.1 at 2013-11-13 22:34:37 +0530
+Processing by NotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"My2MBEcOMkc9EJZa+UgCvBb85T7/KDS19k0WEJBntsU=", "note"=>{"data"=>"asdasdasd"}, "commit"=>"Save"}
+Completed 401 Unauthorized in 2ms
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 22:34:37 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:37 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:34:37 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:37 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:34:37 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:37 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:34:37 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:37 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:37 +0530
+
+
+Started POST "/login" for 127.0.0.1 at 2013-11-13 22:34:42 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"My2MBEcOMkc9EJZa+UgCvBb85T7/KDS19k0WEJBntsU=", "user"=>{"email"=>"mercurialmercenary@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'mercurialmercenary@gmail.com' ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.9ms)[0m  UPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = 1  [["last_sign_in_at", Wed, 13 Nov 2013 17:04:28 UTC +00:00], ["current_sign_in_at", Wed, 13 Nov 2013 17:04:42 UTC +00:00], ["sign_in_count", 5], ["updated_at", Wed, 13 Nov 2013 17:04:42 UTC +00:00]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/scratches/new
+Completed 302 Found in 93ms (ActiveRecord: 2.4ms)
+
+
+Started GET "/scratches/new" for 127.0.0.1 at 2013-11-13 22:34:42 +0530
+Processing by NotesController#new as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  Rendered notes/_form.html.erb (2.8ms)
+  Rendered notes/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:34:42 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:42 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:42 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:34:42 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:42 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:34:42 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:42 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:34:42 +0530
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2013-11-13 22:37:32 +0530
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"d7+80OV4HedqOmvlXySlXJM5qe9UhJn3nvG78HIbOk8="}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 39ms (ActiveRecord: 3.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 22:37:33 +0530
+Processing by NotesController#new as HTML
+  Rendered notes/_form.html.erb (14.4ms)
+  Rendered notes/new.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 30ms (Views: 22.8ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:37:33 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:37:33 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:37:33 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:37:33 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:37:33 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:37:33 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:37:33 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:37:33 +0530
+
+
+Started POST "/scratches" for 127.0.0.1 at 2013-11-13 22:41:09 +0530
+Processing by NotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N162/xB8TvsBr2YIMZPyI2wDGJXhJ+mqeqk4LCXBJnU=", "note"=>{"data"=>"asdasdasdasd"}, "commit"=>"Save"}
+Completed 401 Unauthorized in 5ms
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 22:41:09 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 47ms (Views: 10.1ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:41:09 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:41:09 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:41:09 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:41:09 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:41:09 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:41:09 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:41:09 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:41:09 +0530
+
+
+Started POST "/login" for 127.0.0.1 at 2013-11-13 22:41:15 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"N162/xB8TvsBr2YIMZPyI2wDGJXhJ+mqeqk4LCXBJnU=", "user"=>{"email"=>"mercurialmercenary@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.9ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'mercurialmercenary@gmail.com' ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  UPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = 1  [["last_sign_in_at", Wed, 13 Nov 2013 17:04:42 UTC +00:00], ["current_sign_in_at", Wed, 13 Nov 2013 17:11:15 UTC +00:00], ["sign_in_count", 6], ["updated_at", Wed, 13 Nov 2013 17:11:15 UTC +00:00]]
+  [1m[36m (1.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/scratches/new
+Completed 302 Found in 96ms (ActiveRecord: 3.7ms)
+
+
+Started GET "/scratches/new" for 127.0.0.1 at 2013-11-13 22:41:15 +0530
+Processing by NotesController#new as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  Rendered notes/_form.html.erb (60.0ms)
+  Rendered notes/new.html.erb within layouts/application (61.1ms)
+Completed 200 OK in 74ms (Views: 66.5ms | ActiveRecord: 3.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:41:15 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:41:15 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:41:15 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:41:15 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:41:15 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:41:15 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:41:15 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:41:15 +0530
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2013-11-13 22:43:12 +0530
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"JvNZZY5lXs8fhrJOu23aQiooFriYcD+/f1m/TTOBoxY="}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 41ms (ActiveRecord: 4.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 22:43:12 +0530
+Processing by NotesController#new as HTML
+  Rendered notes/_form.html.erb (47.7ms)
+  Rendered notes/new.html.erb within layouts/application (48.9ms)
+Completed 200 OK in 62ms (Views: 54.5ms | ActiveRecord: 3.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:43:12 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:43:12 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:43:12 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:43:12 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:43:12 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:43:12 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:43:12 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:43:12 +0530
+
+
+Started POST "/scratches" for 127.0.0.1 at 2013-11-13 22:43:15 +0530
+Processing by NotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"p8DVWbROpDSMdOWACtZ3X7uYFGrwFIAFEJoZDXqvHK4=", "note"=>{"data"=>"asasdasdasd"}, "commit"=>"Save"}
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 22:43:15 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:43:15 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:43:15 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:43:15 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:43:15 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:43:15 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:43:15 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:43:15 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:43:15 +0530
+
+
+Started POST "/login" for 127.0.0.1 at 2013-11-13 22:43:19 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"p8DVWbROpDSMdOWACtZ3X7uYFGrwFIAFEJoZDXqvHK4=", "user"=>{"email"=>"mercurialmercenary@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.8ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'mercurialmercenary@gmail.com' ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  UPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = 1  [["last_sign_in_at", Wed, 13 Nov 2013 17:11:15 UTC +00:00], ["current_sign_in_at", Wed, 13 Nov 2013 17:13:19 UTC +00:00], ["sign_in_count", 7], ["updated_at", Wed, 13 Nov 2013 17:13:20 UTC +00:00]]
+  [1m[36m (2.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/scratches/new
+Completed 302 Found in 95ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/scratches/new" for 127.0.0.1 at 2013-11-13 22:43:20 +0530
+Processing by NotesController#new as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  Rendered notes/_form.html.erb (2.9ms)
+  Rendered notes/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:43:20 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:43:20 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:43:20 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:43:20 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:43:20 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:43:20 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:43:20 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:43:20 +0530
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2013-11-13 22:43:34 +0530
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"fY1I+YV162xH4r21ApextRYOQ9pfwOzrKnB8gTmVSKw="}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 80ms (ActiveRecord: 4.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 22:43:34 +0530
+Processing by NotesController#new as HTML
+  Rendered notes/_form.html.erb (14.1ms)
+  Rendered notes/new.html.erb within layouts/application (15.4ms)
+Completed 200 OK in 28ms (Views: 21.1ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:43:34 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:43:34 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:43:34 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:43:34 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:43:34 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:43:34 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:43:34 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:43:34 +0530
+
+
+Started POST "/scratches" for 127.0.0.1 at 2013-11-13 22:43:46 +0530
+Processing by NotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BE9PYhCmlJG8zjcoGYTZWG2Ezh+0rRXXBhLkMMzC38A=", "note"=>{"data"=>"asdasdasdasdasd"}, "commit"=>"Save"}
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 22:43:46 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 12ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:43:46 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:43:46 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:43:46 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:43:46 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:43:46 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:43:46 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:43:46 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:43:46 +0530
+
+
+Started POST "/login" for 127.0.0.1 at 2013-11-13 22:43:51 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"BE9PYhCmlJG8zjcoGYTZWG2Ezh+0rRXXBhLkMMzC38A=", "user"=>{"email"=>"mercurialmercenary@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (1.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'mercurialmercenary@gmail.com' ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  UPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = 1  [["last_sign_in_at", Wed, 13 Nov 2013 17:13:19 UTC +00:00], ["current_sign_in_at", Wed, 13 Nov 2013 17:13:51 UTC +00:00], ["sign_in_count", 8], ["updated_at", Wed, 13 Nov 2013 17:13:51 UTC +00:00]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/scratches/new
+Completed 302 Found in 94ms (ActiveRecord: 4.3ms)
+
+
+Started GET "/scratches/new" for 127.0.0.1 at 2013-11-13 22:43:51 +0530
+Processing by NotesController#new as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  Rendered notes/_form.html.erb (3.7ms)
+  Rendered notes/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 12ms (Views: 10.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:43:51 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:43:51 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:43:51 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:43:51 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:43:51 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:43:51 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:43:51 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:43:51 +0530
+
+
+Started GET "/scratches" for 127.0.0.1 at 2013-11-13 22:44:43 +0530
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mNote Load (0.6ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = $1 ORDER BY created_at DESC  [["user_id", 1]]
+  Rendered notes/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 14ms (Views: 9.9ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/scratches/new" for 127.0.0.1 at 2013-11-13 22:44:51 +0530
+Processing by NotesController#new as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered notes/_form.html.erb (3.9ms)
+  Rendered notes/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:44:51 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:44:51 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:44:51 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:44:51 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:44:51 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:44:51 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:44:51 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:44:51 +0530
+
+
+Started GET "/scratches/new" for 127.0.0.1 at 2013-11-13 22:49:58 +0530
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/controllers/notes_controller.rb:21:in `process'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (20.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 22:50:50 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/controllers/notes_controller.rb:21:in `process'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.4ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (45.3ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (67.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 22:52:28 +0530
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/controllers/notes_controller.rb:21:in `process'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 22:52:29 +0530
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/controllers/notes_controller.rb:21:in `process'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 22:52:29 +0530
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/controllers/notes_controller.rb:21:in `process'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 22:52:29 +0530
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/controllers/notes_controller.rb:21:in `process'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.7ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 22:53:28 +0530
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/controllers/notes_controller.rb:21:in `process'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 22:53:29 +0530
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/controllers/notes_controller.rb:21:in `process'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.0ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 22:53:41 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/controllers/notes_controller.rb:21:in `process'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (20.3ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (39.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 22:53:42 +0530
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/controllers/notes_controller.rb:21:in `process'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (16.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 22:53:42 +0530
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/controllers/notes_controller.rb:21:in `process'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.4ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 22:53:43 +0530
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/controllers/notes_controller.rb:21:in `process'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (18.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 22:53:43 +0530
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/controllers/notes_controller.rb:21:in `process'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.9ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 22:53:43 +0530
+
+ArgumentError (wrong number of arguments (1 for 0)):
+  app/controllers/notes_controller.rb:21:in `process'
+
+
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.8ms)
+  Rendered vendor/bundle/gems/actionpack-4.0.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (17.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 22:55:41 +0530
+Processing by NotesController#new as HTML
+  [1m[35mUser Load (1.5ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  Rendered notes/_form.html.erb (62.8ms)
+  Rendered notes/new.html.erb within layouts/application (66.1ms)
+Completed 200 OK in 145ms (Views: 129.6ms | ActiveRecord: 8.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:55:42 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:55:42 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:55:42 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:55:42 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:55:42 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:55:42 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:55:42 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:55:42 +0530
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2013-11-13 22:55:49 +0530
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"9i6RlvS45SGoU9kHdj+4ZaGyuG7pV0OX5IXEihcfazE="}
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 43ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 22:55:49 +0530
+Processing by NotesController#new as HTML
+  Rendered notes/_form.html.erb (9.8ms)
+  Rendered notes/new.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 17ms (Views: 16.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:55:49 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:55:49 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:55:49 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:55:49 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:55:49 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:55:49 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:55:49 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:55:49 +0530
+
+
+Started POST "/scratches" for 127.0.0.1 at 2013-11-13 22:55:52 +0530
+Processing by NotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U8CRR4NxHWdXoU3Gw9smgJDZ4jC5VaCxUpgMlucUMVs=", "note"=>{"data"=>"sadasdasd"}, "commit"=>"Save"}
+Completed 401 Unauthorized in 3ms
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 22:55:52 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (1.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 26ms (Views: 23.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:55:52 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:55:52 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:55:52 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:55:52 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:55:52 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:55:52 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:55:52 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:55:52 +0530
+
+
+Started POST "/login" for 127.0.0.1 at 2013-11-13 22:55:57 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U8CRR4NxHWdXoU3Gw9smgJDZ4jC5VaCxUpgMlucUMVs=", "user"=>{"email"=>"mercurialmercenary@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (1.3ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'mercurialmercenary@gmail.com' ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (5.4ms)[0m  UPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = 1  [["last_sign_in_at", Wed, 13 Nov 2013 17:13:51 UTC +00:00], ["current_sign_in_at", Wed, 13 Nov 2013 17:25:57 UTC +00:00], ["sign_in_count", 9], ["updated_at", Wed, 13 Nov 2013 17:25:57 UTC +00:00]]
+  [1m[36m (2.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/notes/process
+Completed 302 Found in 99ms (ActiveRecord: 9.5ms)
+
+
+Started GET "/notes/process" for 127.0.0.1 at 2013-11-13 22:55:57 +0530
+Processing by NotesController#aprocess as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+Redirected to http://localhost:3000/scratches
+Completed 302 Found in 3ms (ActiveRecord: 0.7ms)
+
+
+Started GET "/scratches" for 127.0.0.1 at 2013-11-13 22:55:57 +0530
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mNote Load (1.6ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = $1 ORDER BY created_at DESC  [["user_id", 1]]
+  Rendered notes/index.html.erb within layouts/application (40.2ms)
+Completed 200 OK in 63ms (Views: 45.8ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:55:57 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:55:57 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:55:57 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:55:57 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:55:57 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:55:57 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:55:57 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:55:57 +0530
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2013-11-13 22:57:17 +0530
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"R/US0m5RHqBfntA/AyiE577bws2cYxsrmg5+2AN8IGI="}
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 43ms (ActiveRecord: 4.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 22:57:17 +0530
+Processing by NotesController#new as HTML
+  Rendered notes/_form.html.erb (14.8ms)
+  Rendered notes/new.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 67ms (Views: 60.6ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:57:17 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:57:17 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:57:17 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:57:17 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:57:17 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:57:17 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:57:17 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:57:17 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 22:57:18 +0530
+Processing by NotesController#new as HTML
+  Rendered notes/_form.html.erb (1.7ms)
+  Rendered notes/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:57:18 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:57:18 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:57:18 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:57:18 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:57:18 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:57:18 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:57:18 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:57:18 +0530
+
+
+Started POST "/scratches" for 127.0.0.1 at 2013-11-13 22:57:20 +0530
+Processing by NotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hAlBVyQCClRZ6thcX9hz0+lPq+Xzj6i8MJrmIHNIpXg=", "note"=>{"data"=>"asdasdasdad"}, "commit"=>"Save"}
+Completed 401 Unauthorized in 1ms
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 22:57:20 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.6ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:57:20 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:57:20 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:57:20 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:57:20 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:57:20 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:57:20 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:57:20 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:57:20 +0530
+
+
+Started POST "/login" for 127.0.0.1 at 2013-11-13 22:57:24 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hAlBVyQCClRZ6thcX9hz0+lPq+Xzj6i8MJrmIHNIpXg=", "user"=>{"email"=>"mercurialmercenary@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (0.9ms)[0m  SELECT "users".* FROM "users" WHERE "users"."email" = 'mercurialmercenary@gmail.com' ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.7ms)[0m  UPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = 1  [["last_sign_in_at", Wed, 13 Nov 2013 17:25:57 UTC +00:00], ["current_sign_in_at", Wed, 13 Nov 2013 17:27:24 UTC +00:00], ["sign_in_count", 10], ["updated_at", Wed, 13 Nov 2013 17:27:24 UTC +00:00]]
+  [1m[36m (1.8ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/notes/process
+Completed 302 Found in 96ms (ActiveRecord: 3.6ms)
+
+
+Started GET "/notes/process" for 127.0.0.1 at 2013-11-13 22:57:24 +0530
+Processing by NotesController#aprocess as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.2ms)[0m  INSERT INTO "notes" ("created_at", "data", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 13 Nov 2013 17:27:24 UTC +00:00], ["data", "Sex is good"], ["updated_at", Wed, 13 Nov 2013 17:27:24 UTC +00:00], ["user_id", 1]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/scratches
+Completed 302 Found in 7ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/scratches" for 127.0.0.1 at 2013-11-13 22:57:24 +0530
+Processing by NotesController#index as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mNote Load (0.7ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."user_id" = $1 ORDER BY created_at DESC[0m  [["user_id", 1]]
+  Rendered notes/index.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 15ms (Views: 10.3ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:57:25 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:57:25 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:57:25 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:57:25 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:57:25 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:57:25 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:57:25 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:57:25 +0530
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2013-11-13 22:58:36 +0530
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"gVCO0UuyZXmc8LxH6FEy2sM+midY/lM6CpJ+kow0aZU="}
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.3ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 42ms (ActiveRecord: 4.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 22:58:36 +0530
+Processing by NotesController#new as HTML
+  Rendered notes/_form.html.erb (13.9ms)
+  Rendered notes/new.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 28ms (Views: 20.6ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:58:36 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:58:36 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:58:36 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:58:36 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:58:36 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:58:36 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:58:36 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:58:36 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 22:58:37 +0530
+Processing by NotesController#new as HTML
+  Rendered notes/_form.html.erb (1.6ms)
+  Rendered notes/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:58:37 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:58:37 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:58:37 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:58:37 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:58:37 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:58:37 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:58:37 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:58:37 +0530
+
+
+Started POST "/scratches" for 127.0.0.1 at 2013-11-13 22:58:39 +0530
+Processing by NotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"m2tC0uH5L2GvD4bcZqdVkLeLVJ+QEvZ2z3YXISvq0rI=", "note"=>{"data"=>"asdasdasd"}, "commit"=>"Save"}
+Completed 401 Unauthorized in 2ms
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 22:58:39 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 47ms (Views: 45.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:58:39 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:58:39 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:58:39 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:58:39 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:58:39 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:58:39 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:58:39 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:58:39 +0530
+
+
+Started POST "/login" for 127.0.0.1 at 2013-11-13 22:58:43 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"m2tC0uH5L2GvD4bcZqdVkLeLVJ+QEvZ2z3YXISvq0rI=", "user"=>{"email"=>"mercurialmercenary@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'mercurialmercenary@gmail.com' ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.7ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = 1[0m  [["last_sign_in_at", Wed, 13 Nov 2013 17:27:24 UTC +00:00], ["current_sign_in_at", Wed, 13 Nov 2013 17:28:43 UTC +00:00], ["sign_in_count", 11], ["updated_at", Wed, 13 Nov 2013 17:28:43 UTC +00:00]]
+  [1m[35m (1.8ms)[0m  COMMIT
+Redirected to http://localhost:3000/notes/process
+Completed 302 Found in 94ms (ActiveRecord: 3.4ms)
+
+
+Started GET "/notes/process" for 127.0.0.1 at 2013-11-13 22:58:43 +0530
+Processing by NotesController#aprocess as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "notes" ("created_at", "data", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 13 Nov 2013 17:28:43 UTC +00:00], ["data", "Sex is good"], ["updated_at", Wed, 13 Nov 2013 17:28:43 UTC +00:00], ["user_id", 1]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/scratches
+Completed 302 Found in 9ms (ActiveRecord: 2.4ms)
+
+
+Started GET "/scratches" for 127.0.0.1 at 2013-11-13 22:58:43 +0530
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mNote Load (0.6ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = $1 ORDER BY created_at DESC  [["user_id", 1]]
+  Rendered notes/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 14ms (Views: 9.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:58:43 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:58:43 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:58:43 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:58:43 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:58:43 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:58:43 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:58:43 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:58:43 +0530
+
+
+Started DELETE "/scratches/20" for 127.0.0.1 at 2013-11-13 22:58:46 +0530
+Processing by NotesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"5E2ffOKG1hJNV+bDsHSWrC7RfaOrWXqUXWhytdRPyfc=", "id"=>"20"}
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mNote Load (0.9ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = $1 AND "notes"."id" = $2 LIMIT 1  [["user_id", 1], ["id", "20"]]
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  DELETE FROM "notes" WHERE "notes"."id" = $1  [["id", 20]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/scratches
+Completed 302 Found in 11ms (ActiveRecord: 3.3ms)
+
+
+Started GET "/scratches" for 127.0.0.1 at 2013-11-13 22:58:46 +0530
+Processing by NotesController#index as HTML
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mNote Load (0.8ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."user_id" = $1 ORDER BY created_at DESC[0m  [["user_id", 1]]
+  Rendered notes/index.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 16ms (Views: 11.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 22:58:46 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 22:58:46 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 22:58:46 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 22:58:46 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 22:58:46 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 22:58:46 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 22:58:46 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 22:58:46 +0530
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2013-11-13 23:04:27 +0530
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"5E2ffOKG1hJNV+bDsHSWrC7RfaOrWXqUXWhytdRPyfc="}
+  [1m[35mUser Load (0.6ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 81ms (ActiveRecord: 4.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 23:04:27 +0530
+Processing by NotesController#new as HTML
+  Rendered notes/_form.html.erb (13.6ms)
+  Rendered notes/new.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 28ms (Views: 20.5ms | ActiveRecord: 3.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 23:04:27 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 23:04:27 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 23:04:27 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 23:04:27 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 23:04:27 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 23:04:27 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 23:04:27 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 23:04:27 +0530
+
+
+Started POST "/scratches" for 127.0.0.1 at 2013-11-13 23:04:30 +0530
+Processing by NotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"psLINPGTsU1qmMv6nbtvh5USwzVGPvwigF4EXJIP1fk=", "note"=>{"data"=>"asdasdasdasd"}, "commit"=>"Save"}
+Completed 401 Unauthorized in 2ms
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 23:04:30 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 23:04:30 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 23:04:30 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 23:04:30 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 23:04:30 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 23:04:30 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 23:04:30 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 23:04:30 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 23:04:30 +0530
+
+
+Started POST "/login" for 127.0.0.1 at 2013-11-13 23:04:34 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"psLINPGTsU1qmMv6nbtvh5USwzVGPvwigF4EXJIP1fk=", "user"=>{"email"=>"mercurialmercenary@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'mercurialmercenary@gmail.com' ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.9ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = 1[0m  [["last_sign_in_at", Wed, 13 Nov 2013 17:28:43 UTC +00:00], ["current_sign_in_at", Wed, 13 Nov 2013 17:34:34 UTC +00:00], ["sign_in_count", 12], ["updated_at", Wed, 13 Nov 2013 17:34:34 UTC +00:00]]
+  [1m[35m (1.8ms)[0m  COMMIT
+Redirected to http://localhost:3000/notes/process
+Completed 302 Found in 95ms (ActiveRecord: 3.8ms)
+
+
+Started GET "/notes/process" for 127.0.0.1 at 2013-11-13 23:04:34 +0530
+Processing by NotesController#aprocess as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.4ms)[0m  [1mINSERT INTO "notes" ("created_at", "updated_at", "user_id") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", Wed, 13 Nov 2013 17:34:34 UTC +00:00], ["updated_at", Wed, 13 Nov 2013 17:34:34 UTC +00:00], ["user_id", 1]]
+  [1m[35m (0.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/scratches
+Completed 302 Found in 11ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/scratches" for 127.0.0.1 at 2013-11-13 23:04:34 +0530
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mNote Load (0.7ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = $1 ORDER BY created_at DESC  [["user_id", 1]]
+  Rendered notes/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 14ms (Views: 10.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 23:04:35 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 23:04:35 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 23:04:35 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 23:04:35 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 23:04:35 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 23:04:35 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 23:04:35 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 23:04:35 +0530
+
+
+Started DELETE "/scratches/22" for 127.0.0.1 at 2013-11-13 23:04:44 +0530
+Processing by NotesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"rwUUsHxE/pVPtHcGBy47HykHac9qzCNeuxWpzIKZ0go=", "id"=>"22"}
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mNote Load (0.6ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = $1 AND "notes"."id" = $2 LIMIT 1  [["user_id", 1], ["id", "22"]]
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.8ms)[0m  DELETE FROM "notes" WHERE "notes"."id" = $1  [["id", 22]]
+  [1m[36m (2.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/scratches
+Completed 302 Found in 11ms (ActiveRecord: 4.7ms)
+
+
+Started GET "/scratches" for 127.0.0.1 at 2013-11-13 23:04:44 +0530
+Processing by NotesController#index as HTML
+  [1m[35mUser Load (0.9ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mNote Load (0.8ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."user_id" = $1 ORDER BY created_at DESC[0m  [["user_id", 1]]
+  Rendered notes/index.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 16ms (Views: 11.9ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 23:04:44 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 23:04:44 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 23:04:44 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 23:04:44 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 23:04:44 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 23:04:44 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 23:04:44 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 23:04:44 +0530
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2013-11-13 23:06:51 +0530
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"rwUUsHxE/pVPtHcGBy47HykHac9qzCNeuxWpzIKZ0go="}
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 44ms (ActiveRecord: 4.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 23:06:51 +0530
+Processing by NotesController#new as HTML
+  Rendered notes/_form.html.erb (15.2ms)
+  Rendered notes/new.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 66ms (Views: 22.8ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 23:06:51 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 23:06:51 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 23:06:51 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 23:06:51 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 23:06:51 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 23:06:51 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 23:06:51 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 23:06:51 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 23:06:52 +0530
+Processing by NotesController#new as HTML
+  Rendered notes/_form.html.erb (1.5ms)
+  Rendered notes/new.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 23:06:52 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 23:06:52 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 23:06:52 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 23:06:52 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 23:06:52 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 23:06:52 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 23:06:52 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 23:06:52 +0530
+
+
+Started POST "/scratches" for 127.0.0.1 at 2013-11-13 23:06:55 +0530
+Processing by NotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2pVFPZGC/dYmm2Wv9VM8UMsfLFDce3Q7LylOfubUUEQ=", "note"=>{"data"=>"asdasdasdad"}, "commit"=>"Save"}
+
+Completed 401 Unauthorized in 2ms
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 23:06:55 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 13ms (Views: 11.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 23:06:55 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 23:06:55 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 23:06:55 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 23:06:55 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 23:06:55 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 23:06:55 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 23:06:55 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 23:06:55 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 23:07:55 +0530
+Processing by NotesController#new as HTML
+  Rendered notes/_form.html.erb (52.4ms)
+  Rendered notes/new.html.erb within layouts/application (53.7ms)
+Completed 200 OK in 71ms (Views: 60.6ms | ActiveRecord: 4.8ms)
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 23:07:55 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 23:07:55 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 23:07:55 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 23:07:55 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 23:07:55 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 23:07:55 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 23:07:55 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 23:07:55 +0530
+
+
+Started POST "/scratches" for 127.0.0.1 at 2013-11-13 23:07:57 +0530
+Processing by NotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2pVFPZGC/dYmm2Wv9VM8UMsfLFDce3Q7LylOfubUUEQ=", "note"=>{"data"=>"asdasdasd"}, "commit"=>"Save"}
+
+Completed 401 Unauthorized in 6ms
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 23:07:57 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.7ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 46ms (Views: 11.8ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 23:07:57 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 23:07:57 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 23:07:57 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 23:07:57 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 23:07:57 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 23:07:57 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 23:07:57 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 23:07:57 +0530
+
+
+Started POST "/login" for 127.0.0.1 at 2013-11-13 23:08:00 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2pVFPZGC/dYmm2Wv9VM8UMsfLFDce3Q7LylOfubUUEQ=", "user"=>{"email"=>"mercurialmercenary@gmail.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'mercurialmercenary@gmail.com' ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (1.0ms)[0m  [1mUPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "sign_in_count" = $3, "updated_at" = $4 WHERE "users"."id" = 1[0m  [["last_sign_in_at", Wed, 13 Nov 2013 17:34:34 UTC +00:00], ["current_sign_in_at", Wed, 13 Nov 2013 17:38:00 UTC +00:00], ["sign_in_count", 13], ["updated_at", Wed, 13 Nov 2013 17:38:00 UTC +00:00]]
+  [1m[35m (1.8ms)[0m  COMMIT
+Redirected to http://localhost:3000/notes/process
+Completed 302 Found in 95ms (ActiveRecord: 3.8ms)
+
+
+Started GET "/notes/process" for 127.0.0.1 at 2013-11-13 23:08:00 +0530
+Processing by NotesController#aprocess as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "notes" ("created_at", "data", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 13 Nov 2013 17:38:00 UTC +00:00], ["data", "asdasdasd"], ["updated_at", Wed, 13 Nov 2013 17:38:00 UTC +00:00], ["user_id", 1]]
+  [1m[35m (0.5ms)[0m  COMMIT
+Redirected to http://localhost:3000/scratches
+Completed 302 Found in 10ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/scratches" for 127.0.0.1 at 2013-11-13 23:08:00 +0530
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mNote Load (0.5ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = $1 ORDER BY created_at DESC  [["user_id", 1]]
+  Rendered notes/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 13ms (Views: 8.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 23:08:01 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 23:08:01 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 23:08:01 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 23:08:01 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 23:08:01 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 23:08:01 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 23:08:01 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 23:08:01 +0530
+
+
+Started GET "/scratches/new" for 127.0.0.1 at 2013-11-13 23:08:23 +0530
+Processing by NotesController#new as HTML
+  [1m[36mUser Load (0.5ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered notes/_form.html.erb (47.1ms)
+  Rendered notes/new.html.erb within layouts/application (48.7ms)
+Completed 200 OK in 61ms (Views: 51.2ms | ActiveRecord: 6.1ms)
+
+
+Started POST "/scratches" for 127.0.0.1 at 2013-11-13 23:08:25 +0530
+Processing by NotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YuLnpIm2bEBIa0t+lFIln0pJlyZcEai/id6wm2rUqGQ=", "note"=>{"data"=>"asdasdasdasd"}, "commit"=>"Save"}
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "notes" ("created_at", "data", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 13 Nov 2013 17:38:25 UTC +00:00], ["data", "asdasdasdasd"], ["updated_at", Wed, 13 Nov 2013 17:38:25 UTC +00:00], ["user_id", 1]]
+  [1m[36m (2.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/scratches
+Completed 302 Found in 13ms (ActiveRecord: 3.7ms)
+
+
+Started GET "/scratches" for 127.0.0.1 at 2013-11-13 23:08:25 +0530
+Processing by NotesController#index as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mNote Load (0.5ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."user_id" = $1 ORDER BY created_at DESC[0m  [["user_id", 1]]
+  Rendered notes/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 15ms (Views: 10.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 23:08:25 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 23:08:25 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 23:08:25 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 23:08:25 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 23:08:25 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 23:08:25 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 23:08:25 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 23:08:25 +0530
+
+
+Started DELETE "/scratches/24" for 127.0.0.1 at 2013-11-13 23:08:28 +0530
+Processing by NotesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"YuLnpIm2bEBIa0t+lFIln0pJlyZcEai/id6wm2rUqGQ=", "id"=>"24"}
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mNote Load (0.8ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."user_id" = $1 AND "notes"."id" = $2 LIMIT 1[0m  [["user_id", 1], ["id", "24"]]
+  [1m[35m (0.4ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mDELETE FROM "notes" WHERE "notes"."id" = $1[0m  [["id", 24]]
+  [1m[35m (0.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/scratches
+Completed 302 Found in 9ms (ActiveRecord: 3.0ms)
+
+
+Started GET "/scratches" for 127.0.0.1 at 2013-11-13 23:08:28 +0530
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.7ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mNote Load (0.5ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = $1 ORDER BY created_at DESC  [["user_id", 1]]
+  Rendered notes/index.html.erb within layouts/application (41.8ms)
+Completed 200 OK in 50ms (Views: 46.5ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 23:08:28 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 23:08:28 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 23:08:28 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 23:08:28 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 23:08:28 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 23:08:28 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 23:08:28 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 23:08:28 +0530
+
+
+Started GET "/scratches/new" for 127.0.0.1 at 2013-11-13 23:08:29 +0530
+Processing by NotesController#new as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1[0m
+  Rendered notes/_form.html.erb (3.6ms)
+  Rendered notes/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.8ms)
+
+
+Started POST "/scratches" for 127.0.0.1 at 2013-11-13 23:08:31 +0530
+Processing by NotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YuLnpIm2bEBIa0t+lFIln0pJlyZcEai/id6wm2rUqGQ=", "note"=>{"data"=>"aa"}, "commit"=>"Save"}
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "notes" ("created_at", "data", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 13 Nov 2013 17:38:31 UTC +00:00], ["data", "aa"], ["updated_at", Wed, 13 Nov 2013 17:38:31 UTC +00:00], ["user_id", 1]]
+  [1m[36m (0.6ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/scratches
+Completed 302 Found in 6ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/scratches" for 127.0.0.1 at 2013-11-13 23:08:31 +0530
+Processing by NotesController#index as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mNote Load (0.5ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."user_id" = $1 ORDER BY created_at DESC[0m  [["user_id", 1]]
+  Rendered notes/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 13ms (Views: 9.3ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 23:08:31 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 23:08:31 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 23:08:31 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 23:08:31 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 23:08:31 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 23:08:31 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 23:08:31 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 23:08:31 +0530
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2013-11-13 23:08:48 +0530
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"YuLnpIm2bEBIa0t+lFIln0pJlyZcEai/id6wm2rUqGQ="}
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35m (0.2ms)[0m  COMMIT
+Redirected to http://localhost:3000/
+Completed 302 Found in 8ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 23:08:48 +0530
+Processing by NotesController#new as HTML
+  Rendered notes/_form.html.erb (2.1ms)
+  Rendered notes/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 23:08:48 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 23:08:48 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 23:08:48 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 23:08:48 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 23:08:48 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 23:08:48 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 23:08:48 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 23:08:48 +0530
+
+
+Started POST "/scratches" for 127.0.0.1 at 2013-11-13 23:08:56 +0530
+Processing by NotesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WqDcD9mJpjB0iUEAmY52+Bn9bdnttQtmP9YY2tBouQY=", "note"=>{"data"=>"bbbbbbbaasdasdasdasdasdasdasdasdasd"}, "commit"=>"Save"}
+Completed 401 Unauthorized in 2ms
+
+
+Started GET "/login" for 127.0.0.1 at 2013-11-13 23:08:56 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.erb (0.4ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 12ms (Views: 10.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 23:08:56 +0530
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 23:08:56 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 23:08:56 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 23:08:56 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 23:08:56 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 23:08:56 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 23:08:56 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 23:08:56 +0530
+
+
+Started GET "/sign_up" for 127.0.0.1 at 2013-11-13 23:08:57 +0530
+Processing by Devise::RegistrationsController#new as HTML
+  Rendered devise/shared/_links.erb (0.5ms)
+  Rendered devise/registrations/new.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 14ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/" for 127.0.0.1 at 2013-11-13 23:09:08 +0530
+Processing by Devise::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WqDcD9mJpjB0iUEAmY52+Bn9bdnttQtmP9YY2tBouQY=", "user"=>{"email"=>"m1ercurialmercenary@gmail.com", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[36m (0.3ms)[0m  [1mBEGIN[0m
+  [1m[35mUser Exists (0.8ms)[0m  SELECT 1 AS one FROM "users" WHERE "users"."email" = 'm1ercurialmercenary@gmail.com' LIMIT 1
+  [1m[36mSQL (1.1ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "encrypted_password", "updated_at") VALUES ($1, $2, $3, $4) RETURNING "id"[0m  [["created_at", Wed, 13 Nov 2013 17:39:08 UTC +00:00], ["email", "m1ercurialmercenary@gmail.com"], ["encrypted_password", "$2a$10$OEsd.RWtMD2AWV1SlV0b2OuTCT1jpbuZiQAp62fl3zGm1JMoZU5VO"], ["updated_at", Wed, 13 Nov 2013 17:39:08 UTC +00:00]]
+  [1m[35m (1.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.0ms)[0m  UPDATE "users" SET "last_sign_in_at" = $1, "current_sign_in_at" = $2, "last_sign_in_ip" = $3, "current_sign_in_ip" = $4, "sign_in_count" = $5, "updated_at" = $6 WHERE "users"."id" = 2  [["last_sign_in_at", Wed, 13 Nov 2013 17:39:08 UTC +00:00], ["current_sign_in_at", Wed, 13 Nov 2013 17:39:08 UTC +00:00], ["last_sign_in_ip", "127.0.0.1"], ["current_sign_in_ip", "127.0.0.1"], ["sign_in_count", 1], ["updated_at", Wed, 13 Nov 2013 17:39:08 UTC +00:00]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/notes/process
+Completed 302 Found in 102ms (ActiveRecord: 5.4ms)
+
+
+Started GET "/notes/process" for 127.0.0.1 at 2013-11-13 23:09:08 +0530
+Processing by NotesController#aprocess as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "notes" ("created_at", "data", "updated_at", "user_id") VALUES ($1, $2, $3, $4) RETURNING "id"  [["created_at", Wed, 13 Nov 2013 17:39:08 UTC +00:00], ["data", "bbbbbbbaasdasdasdasdasdasdasdasdasd"], ["updated_at", Wed, 13 Nov 2013 17:39:08 UTC +00:00], ["user_id", 2]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/scratches
+Completed 302 Found in 7ms (ActiveRecord: 1.8ms)
+
+
+Started GET "/scratches" for 127.0.0.1 at 2013-11-13 23:09:08 +0530
+Processing by NotesController#index as HTML
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mNote Load (0.5ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."user_id" = $1 ORDER BY created_at DESC[0m  [["user_id", 2]]
+  Rendered notes/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 11ms (Views: 7.7ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 23:09:08 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 23:09:08 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 23:09:08 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 23:09:08 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 23:09:08 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 23:09:08 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 23:09:08 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 23:09:08 +0530
+
+
+Started DELETE "/scratches/26" for 127.0.0.1 at 2013-11-13 23:09:19 +0530
+Processing by NotesController#destroy as HTML
+  Parameters: {"authenticity_token"=>"WqDcD9mJpjB0iUEAmY52+Bn9bdnttQtmP9YY2tBouQY=", "id"=>"26"}
+  [1m[35mUser Load (0.7ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 2 ORDER BY "users"."id" ASC LIMIT 1
+  [1m[36mNote Load (0.6ms)[0m  [1mSELECT "notes".* FROM "notes" WHERE "notes"."user_id" = $1 AND "notes"."id" = $2 LIMIT 1[0m  [["user_id", 2], ["id", "26"]]
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36mSQL (0.6ms)[0m  [1mDELETE FROM "notes" WHERE "notes"."id" = $1[0m  [["id", 26]]
+  [1m[35m (2.4ms)[0m  COMMIT
+Redirected to http://localhost:3000/scratches
+Completed 302 Found in 9ms (ActiveRecord: 4.4ms)
+
+
+Started GET "/scratches" for 127.0.0.1 at 2013-11-13 23:09:20 +0530
+Processing by NotesController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35mNote Load (0.4ms)[0m  SELECT "notes".* FROM "notes" WHERE "notes"."user_id" = $1 ORDER BY created_at DESC  [["user_id", 2]]
+  Rendered notes/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 9ms (Views: 6.2ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 23:09:20 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 23:09:20 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 23:09:20 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 23:09:20 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 23:09:20 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 23:09:20 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 23:09:20 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 23:09:20 +0530
+
+
+Started DELETE "/logout" for 127.0.0.1 at 2013-11-13 23:09:23 +0530
+Processing by Devise::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"WqDcD9mJpjB0iUEAmY52+Bn9bdnttQtmP9YY2tBouQY="}
+  [1m[36mUser Load (0.9ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 2 ORDER BY "users"."id" ASC LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  BEGIN
+  [1m[36m (0.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/
+Completed 302 Found in 7ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-13 23:09:23 +0530
+Processing by NotesController#new as HTML
+  Rendered notes/_form.html.erb (1.6ms)
+  Rendered notes/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/note.css?body=1" for 127.0.0.1 at 2013-11-13 23:09:23 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-13 23:09:23 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-13 23:09:23 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-13 23:09:23 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-13 23:09:23 +0530
+
+
+Started GET "/assets/notes.css?body=1" for 127.0.0.1 at 2013-11-13 23:09:23 +0530
+
+
+Started GET "/assets/notes.js?body=1" for 127.0.0.1 at 2013-11-13 23:09:23 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-13 23:09:23 +0530

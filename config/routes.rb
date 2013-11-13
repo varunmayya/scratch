@@ -1,6 +1,7 @@
 Scratch::Application.routes.draw do
   devise_for :users,  :path => '', :path_names => {:sign_in => 'login', :sign_out => 'logout'}
   #resources :notes, :except => [:show]
+  get '/notes/process', to: 'notes#aprocess', as: "aprocess"
 resources :scratches, :controller => "notes", :as => "notes", :except => [:show]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
