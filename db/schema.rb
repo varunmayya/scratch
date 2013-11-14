@@ -13,9 +13,6 @@
 
 ActiveRecord::Schema.define(version: 20131113075724) do
 
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
-
   create_table "notes", force: true do |t|
     t.text     "data"
     t.integer  "user_id"
