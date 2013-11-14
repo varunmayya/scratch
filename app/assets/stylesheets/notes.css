@@ -1,9 +1,4 @@
-.logo {
-background-image:image-url(logo.png);
-height:128px;
-margin:40px auto;
-width:320px;
-}
+
 
 #error_explanation ul li {
 color:#e46f6f;
@@ -46,7 +41,7 @@ width:900px;
 a {
 color:#717171;
 font-family:sans-serif;
-font-size:12px;
+font-size:14px;
 }
 
 .p,label {
@@ -78,11 +73,14 @@ margin-left:70px!important;
 }
 
 .logout {
-background-color:#FF0;
+background-color:#fff;
 border-radius:0 0 3px 3px;
 color:#FFF;
 margin-left:10px;
 width:60px;
+padding:5px 10px;
+font-weight:bold;
+text-decoration:none!important;
 }
 
 input[type = submit]:hover {
@@ -95,14 +93,20 @@ margin:0 0 0 10px;
 }
 
 .flash {
-background-color:#e9e182;
+background-color:#fff;
 border:1px solid #ffff98;
-color:#81744c;
+color:#717171;
 height:30px;
 line-height:30px;
-margin:10px auto;
 text-align:center;
 width:400px;
+position:absolute;
+left:50%;
+margin-left:-200px;
+top:0;
+border-radius:0 0 3px 3px;
+font-weight:bold;
+font-family:sans-serif;
 }
 
 input[type = email],input[type = password] {
@@ -185,14 +189,12 @@ width:100px;
 background-color:#FFF;
 box-shadow:0 2px 2px rgba(0,0,0,0.3);
 color:#7e7e7e;
-float:left;
 font-family:sans-serif;
 font-size:14px;
 margin:25px 0 10px 20px;
 min-height:200px;
 overflow:auto;
 padding:15px;
-position:relative;
 width:290px;
 }
 

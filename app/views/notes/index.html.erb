@@ -3,18 +3,19 @@
 
 
 
+<div id="container">
 
-
-
-    <% @notes.each do |note| %>
-      <div class="note-card">
+<% @notes.each do |note| %>
+    <div class="note-card">
         <%= simple_format(note.data) %> <br/>
-<div class="center-text sblue nt-text">
-        <%= link_to 'Edit', edit_note_path(note) %> /
-        <%= link_to 'Remove', note, method: :delete, data: { confirm: 'Are you sure you want to remove this scratch?' } %>
+		<div class="center-text sblue nt-text">
+	        <%= link_to 'Edit', edit_note_path(note) %> /
+	        <%= link_to 'Remove', note, method: :delete, data: { confirm: 'Are you sure you want to remove this scratch?' } %>
+		</div>
+    </div>
+<% end %>
+
 </div>
- </div>
-    <% end %>
 
 
 <div class="clear"></div>

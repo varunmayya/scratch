@@ -7,6 +7,10 @@ class NotesController < ApplicationController
   # GET /notes.json
   def index
     @notes = current_user.notes.order("created_at DESC")
+    respond_to do |format|
+      format.html
+      format.xml
+    end
   end
 
   # GET /notes/1
@@ -15,13 +19,15 @@ class NotesController < ApplicationController
   end
 
 def hijack
-unless user_signed_in?
-session[:pre_login] = params[:note][:data]
-end
+  unless user_signed_in?
+      session[:pre_login] = params[:note][:data]
+  end
 end
 
 def aprocess
-  current_user.notes.create(data: session[:pre_login])
+  unless session[:pre_login] = nil or session[:pre_login] = ""
+    current_user.notes.create(data: session[:pre_login])
+  end
   session[:pre_login] = nil
   redirect_to notes_url
 end

@@ -11,15 +11,17 @@
 	
 	
 	<%if user_signed_in? %>
-	<div class="logout">
-	<%=link_to "Logout", destroy_user_session_path, method: :delete %>
-	</div>
+		<div class="logout">
+			<%=link_to "Logout", destroy_user_session_path, method: :delete %>
+		</div>
 	<%end%>
 	
 	<%if current_page?(root_url) %>
-	<div class="logout login">
-	<%=link_to "Login", new_user_session_path %>
-	</div>
+		<%unless user_signed_in? %>
+			<div class="logout login">
+				<%=link_to "Login", new_user_session_path %>
+			</div>
+		<%end%>
 	<%end%>
 <% if notice %>
 <div class="flash">
@@ -36,6 +38,7 @@
 <%= yield %>
 
 </div>
+
 <div class="footer">
 Created with &#9829; by Sizr, India
 </div>
