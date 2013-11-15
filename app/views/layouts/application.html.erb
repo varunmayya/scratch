@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Scratch! - Your online quickpad.</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+<div class="container">
+	
+	
+	<%if user_signed_in? %>
+		<div class="logout">
+			<%=link_to "Logout", destroy_user_session_path, method: :delete %>
+		</div>
+	<%end%>
+	
+	<%if current_page?(root_url) %>
+		<%unless user_signed_in? %>
+			<div class="logout login">
+				<%=link_to "Login", new_user_session_path %>
+			</div>
+		<%end%>
+	<%end%>
+<% if notice %>
+<div class="flash">
+<div class="notice"><%= notice %></div>
+</div>
+<%end%>
+<% if alert %>
+<div class="flash">
+<div class="alert"><%= alert %></div>
+</div>
+<%end%>
+
+
+<%= yield %>
+
+</div>
+
+<div class="footer">
+Created with &#9829; by Sizr, India
+</div>
+</body>
+</html>
