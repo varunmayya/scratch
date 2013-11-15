@@ -51,7 +51,7 @@ color:#717171;
 input[type = submit] {
 -moz-box-shadow:inset 0 1px 0 0 #7a8eb9;
 -webkit-box-shadow:inset 0 1px 0 0 #7a8eb9;
-background:linear-gradient(tobottom,#637aad5%,#5972a7100%);
+background:linear-gradient(to bottom,#637aad 5%,#5972a7 100%);
 background-color:#637aad;
 border:1px solid #314179;
 box-shadow:inset 0 1px 0 0 #7a8eb9;
@@ -140,7 +140,7 @@ text-shadow:1px 1px rgba(0,0,0,0.5);
 .button-3 {
 -moz-box-shadow:inset 0 1px 0 0 #a4ff70;
 -webkit-box-shadow:inset 0 1px 0 0 #a4ff70;
-background:linear-gradient(tobottom,#3db34b5%,#31a63f100%);
+background:linear-gradient(to bottom,#3db34b 5%,#31a63f 100%);
 background-color:#3db34b;
 border:1px solid #3a6621;
 box-shadow:inset 0 1px 0 0 #a4ff70;
