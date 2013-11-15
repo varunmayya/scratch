@@ -12,13 +12,6 @@ var do_on_load = function() {
 		  columnWidth: 10,
 		  itemSelector: '.note-card'
 	});
-
-
-	new AnimOnScroll( document.getElementById( 'container' ), {
-		minDuration : 0.4,
-		maxDuration : 0.7,
-		viewportFactor : 0.2
-	} );
 	
 
 };
