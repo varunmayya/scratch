@@ -25,9 +25,7 @@ def hijack
 end
 
 def aprocess
-  unless session[:pre_login] = nil or session[:pre_login] = ""
-    current_user.notes.create(data: session[:pre_login])
-  end
+  current_user.notes.create(data: session[:pre_login]) unless session[:pre_login].blank?
   session[:pre_login] = nil
   redirect_to notes_url
 end

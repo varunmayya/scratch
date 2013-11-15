@@ -188,7 +188,7 @@ min-height:400px;
 
 @media all and (max-width: 744px) {
 	   .container {
-	width:290px;
+	width:352px;
 	}
 }
 @media all and (max-width: 1070px) and (min-width: 745px) {
