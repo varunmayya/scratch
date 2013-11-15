@@ -22,11 +22,6 @@ margin:0;
 padding:0;
 }
 
-.container {
-margin:0 auto;
-min-height:400px;
-width:1030px;
-}
 
 .footer {
 color:#FFF;
@@ -185,6 +180,29 @@ clear:both;
 height:100px;
 width:100px;
 }
+
+.container {
+margin:0 auto;
+min-height:400px;
+}
+
+@media all and (max-width: 744px) {
+	   .container {
+	width:290px;
+	}
+}
+@media all and (max-width: 1070px) and (min-width: 745px) {
+
+  .container {
+	width:705px;
+	}
+}
+@media all and (min-width: 1070px) {
+   .container {
+	width:1030px;
+	}
+}
+
 
 .note-card {
 background-color:#FFF;
