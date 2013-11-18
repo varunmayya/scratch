@@ -9,4 +9,6 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-Scratch::Application.config.secret_key_base = '1385e77252f23e1af877f01210b7f461574733852d0eaedb31959b79541f023dfec3287e3997477e217ac765f32ca66f185bee3a7df98894872789ca82269591'
+secret = ENV['SCRATCH_SECRET']
+
+Scratch::Application.config.secret_key_base = secret
