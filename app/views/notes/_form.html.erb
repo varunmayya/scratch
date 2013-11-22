@@ -1,4 +1,4 @@
-<div class="logo">Scratch<span class="yellow">!</span></div>
+<%= render 'logo' %>
 <%= form_for(@note) do |f| %>
   <% if @note.errors.any? %>
     <div id="error_explanation">
@@ -17,7 +17,7 @@
 	<div class="actions">
 		<div class="lhs">
 			<%unless user_signed_in? %>
-    You must be <%=link_to '<span class="sblue">signed in</span>'.html_safe, new_user_registration_path%> save notes.
+    You must be <%=link_to 'signed in'.html_safe, new_user_session_path, class: "sblue" %> save notes.
    
     <% else %>
      <%=current_user.email%> 

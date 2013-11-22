@@ -1,7 +1,7 @@
 class NotesController < ApplicationController
   before_action :hijack, only: [:create]
   before_action :set_note, only: [:show, :edit, :update, :destroy]
-  before_action :authenticate_user!, except: [:new]
+  before_action :authenticate_user!, except: [:new,:policy]
   before_action :check_if_my_notes, only: [ :show, :edit, :update, :destroy]
   # GET /notes
   # GET /notes.json
@@ -78,6 +78,9 @@ end
       format.html { redirect_to notes_url }
       format.json { head :no_content }
     end
+  end
+
+  def policy
   end
 
   private
