@@ -75,32 +75,27 @@ text-decoration:none;
 color:#717171;
 }
 
-input[type='submit']
-{
-   -webkit-appearance: none;
-   -moz-appearance: none;
-   appearance: none;  
-}
+
 
 input[type = submit] {
--moz-box-shadow:inset 0 1px 0 0 #7a8eb9;
--webkit-box-shadow:inset 0 1px 0 0 #7a8eb9;
-background:linear-gradient(to bottom,#637aad 5%,#5972a7 100%);
-background-color:#637aad;
-border:1px solid #314179;
-box-shadow:inset 0 1px 0 0 #7a8eb9;
-color:#fff;
-cursor:pointer;
-display:block;
-filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#637aad',endColorstr='#5972a7',GradientType=0);
-font-family:arial;
-font-size:13px;
-font-weight:700;
-margin:15px auto 7px;
-min-width:120px;
-padding:6px 12px;
-text-decoration:none;
-float:none;
+	-moz-box-shadow:inset 0 1px 0 0 #7a8eb9;
+	-webkit-box-shadow:inset 0 1px 0 0 #7a8eb9;
+	background:linear-gradient(to bottom,#637aad 5%,#5972a7 100%);
+	background-color:#637aad;
+	border:1px solid #314179;
+	box-shadow:inset 0 1px 0 0 #7a8eb9;
+	color:#fff;
+	cursor:pointer;
+	display:block;
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#637aad',endColorstr='#5972a7',GradientType=0);
+	font-family:arial;
+	font-size:13px;
+	font-weight:700;
+	margin:15px auto 7px;
+	min-width:120px;
+	padding:6px 12px;
+	text-decoration:none;
+	float:none!important;
 }
 
 
@@ -109,7 +104,6 @@ float:none;
 		width: 100%;
 	}
 	input[type = submit] {
-		float: none;
 		margin: 0 auto!important;
 	}
 }
