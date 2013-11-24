@@ -1,16 +1,18 @@
 .logo{
-	height: 128px;width: 320px; margin:14px auto;
-
-color:#FFF;
-font-family:int, sans-serif;
-font-size:136px;
-font-weight:400;
-line-height:133px;
-margin-bottom:20px;
-text-shadow:1px 1px rgba(0,0,0,0.5);
->.yellow {
-	color:yellow;
-}
+	height: 128px;
+	width: 320px; 
+	margin:14px auto 20px;
+	a{
+		color:#FFF;
+		font-family:int, sans-serif;
+		font-size:136px;
+		font-weight:400;
+		line-height:133px;
+		text-shadow:1px 1px rgba(0,0,0,0.5);
+	}
+	>a>.yellow {
+		color:yellow;
+	}
 }
 
 @font-face

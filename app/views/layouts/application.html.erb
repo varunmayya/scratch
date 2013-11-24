@@ -4,6 +4,7 @@
   <title>Scratch! - Your online quickpad.</title>
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <%= csrf_meta_tags %>
   <%= favicon_link_tag '/assets/favicon.ico' %>
 </head>
@@ -43,7 +44,7 @@
 <div class="footer">
 <%= link_to "Created with &#9829; by Sizr, India".html_safe , "http://sizr.net" %>
 <ul>
-<li><%= link_to "SIZR".html_safe , "http://sizr.net" %></li>
+<li><%= link_to "Home".html_safe , root_url %></li>
 <li><%= link_to "Privacy".html_safe , policy_path %></li>
 <li><%= link_to "Twitter".html_safe , "http://twitter.com/thescratchapp" %></li>
 </ul>

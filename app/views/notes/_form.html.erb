@@ -17,7 +17,7 @@
 	<div class="actions">
 		<div class="lhs">
 			<%unless user_signed_in? %>
-    You must be <%=link_to 'signed in'.html_safe, new_user_session_path, class: "sblue" %> save notes.
+    You must be <%=link_to 'signed in'.html_safe, new_user_session_path, class: "sblue" %> to save notes.
    
     <% else %>
      <%=current_user.email%> 
