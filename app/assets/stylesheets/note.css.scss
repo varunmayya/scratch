@@ -17,11 +17,18 @@
 	}
 }
 
-@media all and (max-width: 500px) {
+@media all and (max-width: 400px) {
+	.logo a {
+		font-size: 80px!important;
+	}
+}
+
+@media all and (max-width: 500px) and (min-width: 400px) {
 	.logo a {
 		font-size: 100px!important;
 	}
 }
+
 
 @font-face
 {
