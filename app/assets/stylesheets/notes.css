@@ -95,7 +95,23 @@ input[type = submit] {
 	min-width:120px;
 	padding:6px 12px;
 	text-decoration:none;
-	float:none!important;
+}
+
+.submit-right {
+	background:none!important;
+	background-color:#7bc576!important;
+	border-bottom:3px solid #63ac5f!important;
+	border-left:none!important;
+	border-radius:3px;
+	border-right:none!important;
+	border-top:1px solid #71b66d!important;
+	box-shadow:none!important;
+	float:right;
+	font-size:15px!important;
+	margin-right:15px!important;
+	margin-top:2px!important;
+	min-width:80px!important;
+	text-shadow:0 0 1px green!important;
 }
 
 
@@ -104,6 +120,7 @@ input[type = submit] {
 		width: 100%;
 	}
 	input[type = submit] {
+		float:none!important;
 		margin: 0 auto!important;
 	}
 }
@@ -315,22 +332,7 @@ text-decoration:none!important;
 opacity:0.6;
 }
 
-.submit-right {
-background:none!important;
-background-color:#7bc576!important;
-border-bottom:3px solid #63ac5f!important;
-border-left:none!important;
-border-radius:3px;
-border-right:none!important;
-border-top:1px solid #71b66d!important;
-box-shadow:none!important;
-float:right;
-font-size:15px!important;
-margin-right:15px!important;
-margin-top:2px!important;
-min-width:80px!important;
-text-shadow:0 0 1px green!important;
-}
+
 
 .white-box {
 background-color:#F0F0F0;

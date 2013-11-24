@@ -21,6 +21,9 @@
 	.logo a {
 		font-size: 80px!important;
 	}
+	.logo {
+		width: 100%; 
+	}
 }
 
 @media all and (max-width: 500px) and (min-width: 400px) {
