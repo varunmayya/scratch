@@ -42,6 +42,9 @@ end
 # Use unicorn as the app server
 gem 'unicorn', group: :production
 
+#Pray that Sucker Punch helps save us some money
+gem 'sucker_punch', '~> 1.0'
+
 # Use Capistrano for deployment
 # gem 'capistrano', group: :development
 

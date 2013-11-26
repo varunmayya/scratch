@@ -1,16 +1,18 @@
 <%= render 'logo' %>
+<div style="width:600px; height:100px; background-color:white; opacity:0.2; border:1px solid black; margin:20px auto;"></div>
 <%= link_to 'New Scratch', new_note_path, :class => "button-3" %>
 
-
+<%= render 'modal' %>
 
 <div id="container">
 
 <% @notes.each do |note| %>
-    <div class="note-card">
+    <div id="<%= note.id %>" class="note-card <%= "sent-by" if note.sent_by_id %>">
         <%= simple_format(note.data) %> <br/>
 		<div class="center-text sblue nt-text">
 	        <%= link_to 'Edit', edit_note_path(note) %> /
-	        <%= link_to 'Remove', note, method: :delete, data: { confirm: 'Are you sure you want to remove this scratch?' } %>
+	        <%= link_to 'Remove', note, method: :delete, data: { confirm: 'Are you sure you want to remove this scratch?' } %> / 
+	        <a class="open-modal">Send</a>
 		</div>
     </div>
 <% end %>

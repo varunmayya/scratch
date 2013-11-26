@@ -26,6 +26,18 @@ var do_on_load = function() {
 		  columnWidth: 10,
 		  itemSelector: '.note-card'
 	});
+
+	console.log('Modal registered');
+	$('.modal').hide();
+	$('.backdrop').hide();
+
+	$('.open-modal, .backdrop').click(function() {
+		$('.modal').fadeToggle(700);
+		$('.backdrop').fadeToggle(700);
+		$id = $(this).parent().parent().attr('id');
+		$('input#note_id').val($id);
+	});
+	
 	
 
 };

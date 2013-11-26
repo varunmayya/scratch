@@ -1,0 +1,10 @@
+<div class="backdrop"></div>
+<div class="modal">
+	<h3>Send this scratch to a friend</h3>
+	<p>You can send this scratch to a friend on Scratch and it will appear in his inventory along with an email notification. If the user isn't on Scratch, he or she will get an email with your scratch.</p>
+	<%= form_tag send_note_path do  %>
+      <%= text_field_tag :email, params[:email], placeholder:"Enter an email id"%>
+      <%= hidden_field_tag :note_id, params[:note_id] %>
+      <%= submit_tag "Submit", class: "send-request" %>
+    <% end %>
+</div>

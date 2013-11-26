@@ -97,14 +97,16 @@ input[type = submit] {
 	min-width:120px;
 	padding:6px 12px;
 	text-decoration:none;
-	margin:2px 15px 0 0;
 	border-radius:3px;
-	float:right;
+	margin: 5px auto;
 	min-width:80px;
 	text-shadow:0 0 1px green;
 }
 
-
+input[type = submit].new-note-save {
+	float:right;
+	margin:6px 15px 0 0;
+}
 
 @media all and (max-width: 744px) {
 	.actions {
@@ -280,6 +282,10 @@ overflow:auto;
 padding:15px;
 width:290px;
 position:relative;
+}
+
+.note-card.sent-by {
+	background-color:#ffec4d;
 }
 
 .note-card.center {

@@ -83,21 +83,54 @@ end
   def policy
   end
 
+  def sendit
+    @note = Note.find_by_id(params[:note_id])
+
+    unless @note
+      redirect_to request.referer, notice: "Oops. Something went wrong!" and return
+    end
+
+    unless current_user.notes.include?(@note)
+      redirect_to request.referer, notice: "Oops. Something went wrong!" and return
+    end
+    
+    new2 = User.find_by_email(params[:email])
+
+    if new2
+      new2.notes.create(:data => @note.data, :sent_by_id => current_user.id)
+      #send already existing mail
+      redirect_to request.referer, notice: "Note sent sucessfully to targets inventory. Notified by email too."
+    else
+      #send advertisement mail
+      redirect_to request.referer, notice: "Note sent sucessfully to targets email"
+    end
+
+    
+  end
+
   private
+
+      require 'send_scratch_job'
+
+      def send_mail(user)
+        # We call our sucker punch job asynchronously using "async"
+          ::SendScratchJob.new.async.perform(user)
+      end
+
     # Use callbacks to share common setup or constraints between actions.
     def set_note
-
       @note = current_user.notes.find(params[:id])
-
     end
-def check_if_my_notes
-  if @note.user = current_user
-  else
-    redirect_to root_url, :notice => "Access denied."
-  end
-end
+
+    def check_if_my_notes
+      if @note.user = current_user
+      else
+        redirect_to root_url, :notice => "Access denied."
+      end
+    end
     # Never trust parameters from the scary internet, only allow the white list through.
     def note_params
       params.require(:note).permit(:data)
     end
 end
+

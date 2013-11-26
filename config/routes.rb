@@ -8,7 +8,7 @@ Scratch::Application.routes.draw do
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
- 
+  post '/sendit', to: 'notes#sendit', as: "send_note"
 
   root to: "notes#new"
 
