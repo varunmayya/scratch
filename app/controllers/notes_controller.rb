@@ -86,6 +86,10 @@ end
   def sendit
     @note = Note.find_by_id(params[:note_id])
 
+    unless params[:email].match /\A[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]+\z/
+      redirect_to request.referer, notice: "Invalid email!" and return
+    end
+
     unless @note
       redirect_to request.referer, notice: "Oops. Something went wrong!" and return
     end
@@ -99,10 +103,12 @@ end
     if new2
       new2.notes.create(:data => @note.data, :sent_by_id => current_user.id)
       #send already existing mail
-      redirect_to request.referer, notice: "Note sent sucessfully to targets inventory. Notified by email too."
+      send_mail(params[:email],current_user.email,@note.data,true)
+      redirect_to request.referer, notice: "Note sent sucessfully to user's inventory."
     else
       #send advertisement mail
-      redirect_to request.referer, notice: "Note sent sucessfully to targets email"
+      send_mail(params[:email],current_user,@note.data,false)
+      redirect_to request.referer, notice: "Note sent sucessfully to email."
     end
 
     
@@ -112,9 +118,9 @@ end
 
       require 'send_scratch_job'
 
-      def send_mail(user)
+      def send_mail(to,from,data,isuser)
         # We call our sucker punch job asynchronously using "async"
-          ::SendScratchJob.new.async.perform(user)
+          ::SendScratchJob.new.async.perform(to,from,data,isuser)
       end
 
     # Use callbacks to share common setup or constraints between actions.

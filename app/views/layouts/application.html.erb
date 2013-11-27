@@ -6,7 +6,7 @@
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <%= csrf_meta_tags %>
-  <%= favicon_link_tag '/assets/favicon.ico' %>
+  <%= favicon_link_tag '/assets/favicon.ico?v=2' %>
 </head>
 <body>
 <div class="container">
@@ -21,7 +21,9 @@
 	<%if current_page?(root_url) %>
 		<%unless user_signed_in? %>
 			<div class="logout login">
-				<%=link_to "Login", new_user_session_path %>
+				<%=link_to "Login", new_user_session_path %> 
+				/ 
+				<%=link_to "Sign Up", new_user_registration_path %>
 			</div>
 		<%end%>
 	<%end%>

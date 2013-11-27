@@ -114,9 +114,12 @@ input[type = submit].new-note-save {
 		width: 100%;
 	}
 	input[type = submit] {
-		float:none;
 		display: inline-block;
-		margin: 0;
+	}
+
+	input[type = submit].new-note-save {
+		float:none;
+		margin:0;
 	}
 }
 
@@ -124,13 +127,16 @@ input[type = submit].new-note-save {
 margin-left:70px!important;
 }
 
+
+
 .logout {
 background-color:#fff;
 border-radius:0 0 3px 3px;
-color:#FFF;
+color:#777;
 margin-left:10px;
-width:60px;
-padding:5px 10px;
+width:auto;
+display: inline-block;
+padding:5px 15px;
 font-weight:bold;
 text-decoration:none!important;
 text-align:center;
@@ -285,7 +291,7 @@ position:relative;
 }
 
 .note-card.sent-by {
-	background-color:#ffec4d;
+	background-color:#FFFF33;
 }
 
 .note-card.center {
@@ -310,18 +316,18 @@ margin-top:11px;
 }
 
 .sblue {
-color:#3CF!important;
+color:#2db3e0!important;
 }
 
 a.sblue {
-color:#3CF!important;
+color:#2db3e0!important;
 font-family:sans-serif;
 font-size:14px;
 text-decoration:none!important;
 }
 
 .sblue a {
-color:#3CF!important;
+color:#2db3e0!important;
 font-family:sans-serif;
 font-size:14px;
 text-decoration:none!important;
@@ -351,10 +357,10 @@ border-radius:2px;
 color:#7E7E7E;
 font-family:sans-serif;
 font-size:16px;
-height:240px;
+height:220px;
 margin:11px 0 0 13px;
-padding:5px;
-width:860px;
+padding:15px;
+width:840px;
 }
 
 @media all and (max-width: 744px) {
