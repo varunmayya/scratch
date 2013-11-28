@@ -1,5 +1,5 @@
 class ScratchMailer < ActionMailer::Base
-  default from: 'notification@example.com'
+  default from: 'notification@scratchapp.in'
 	#requires admin
   def send_scratch(to,from,data)
   	@data = data
