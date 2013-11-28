@@ -4,7 +4,7 @@
     <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
   </head>
   <body>
-    <h1>You've received a scratch from <%= @from %>.</h1>
+    <h1>You've received a scratch from <%= @from.email %>.</h1>
     <p>However you don't seem to be a user. Sign up to store scratches as well as receive them in the future. <%= link_to "Sign Up", new_user_registration_path %></p><br>
     <h3>Scratch Note:</h3>
     <p><%= @data %></p>

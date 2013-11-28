@@ -291,7 +291,9 @@ position:relative;
 }
 
 .note-card.sent-by {
-	background-color:#FFFF33;
+	background-image: url('/assets/blueredstripes.png');
+	background-repeat: repeat-x;
+	padding-top:0;
 }
 
 .note-card.center {
