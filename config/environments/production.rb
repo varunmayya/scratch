@@ -30,10 +30,14 @@ Scratch::Application.configure do
   config.assets.compile = false
 
   # Generate digests for assets URLs.
-  config.assets.digest = true
+  config.assets.digest = false
 
   # Version of your assets, change this if you want to expire all your assets.
-  config.assets.version = '1.0'
+  config.assets.version = '2.0'
+
+  config.serve_static_assets = true
+  config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect'
+  config.assets.compile = true
 
   # Specifies the header that your server uses for sending files.
   # config.action_dispatch.x_sendfile_header = "X-Sendfile" # for apache

@@ -38,3 +38,9 @@
 font-family: 'int';
 src: url(font_path('int.ttf'));
 }
+
+.note-card.sent-by {
+	background-image: url(image_path('blueredstripes.png'));
+	background-repeat: repeat-x;
+	padding-top: 25px;
+}
