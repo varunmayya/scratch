@@ -293,7 +293,19 @@ position:relative;
 .note-card.sent-by {
 	background-image: url('/assets/blueredstripes.png');
 	background-repeat: repeat-x;
-	padding-top:0;
+	padding-top: 25px;
+}
+
+.note-card.sent-by .sent-by-who {
+	border-bottom: 1px solid #ccc;
+	width: 100%;
+	position: absolute;
+	padding: 2px 0;
+	text-align: center;
+	color: #555;
+	top:12px;
+	left: 0;
+	right: 0;
 }
 
 .note-card.center {

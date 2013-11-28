@@ -8,6 +8,11 @@
 
 <% @notes.each do |note| %>
     <div id="<%= note.id %>" class="note-card <%= "sent-by" if note.sent_by_id %>">
+    	<% if note.sent_by_id %>
+    		<div class="sent-by-who">
+    			Sent by: <%= User.find_by_id(note.sent_by_id).email %>
+    		</div>
+    	<% end %>
         <%= simple_format(note.data) %> <br/>
 		<div class="center-text sblue nt-text">
 	        <%= link_to 'Edit', edit_note_path(note) %> /
