@@ -291,9 +291,7 @@ position:relative;
 }
 
 .note-card.sent-by {
-	background-image: url('/assets/blueredstripes.png');
-	background-repeat: repeat-x;
-	padding-top: 25px;
+	min-height: 190px;
 }
 
 .note-card.sent-by .sent-by-who {
