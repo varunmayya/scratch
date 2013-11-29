@@ -4,13 +4,13 @@ class ScratchMailer < ActionMailer::Base
   def send_scratch(to,from,data)
   	@data = data
   	@from = from
-    mail(to: to ,subject: 'Scratch sent')
+    mail(to: to ,subject: 'You\'ve received a scratch!')
   end
 
   def new_user(to,from,data)
   	@data = data
   	@from = from
-    mail(to: to ,subject: 'Join Scratch')
+    mail(to: to ,subject: 'You\'ve received an invitation to Scratch!')
   end
 
 end
