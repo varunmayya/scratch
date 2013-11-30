@@ -7,6 +7,6 @@
     <h1>You've received a scratch from <%= @from %>.</h1>
     <p>It's been added to your inventory. There's a copy of it below.</p><br>
     <h3>Scratch Note:</h3>
-    <p><%= @data %></p>
+    <p><%= simple_format(@data) %></p>
   </body>
 </html>

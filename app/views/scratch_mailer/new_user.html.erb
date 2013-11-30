@@ -7,6 +7,6 @@
     <h1>You've received a scratch from <%= @from.email %>.</h1>
     <p>However you don't seem to be a user. Sign up to store scratches as well as receive them in the future. <%= link_to "Sign Up", "http://scratchapp.in/sign_up" %></p><br>
     <h3>Scratch Note:</h3>
-    <p><%= @data %></p>
+    <p><%= simple_format(@data) %></p>
   </body>
 </html>
